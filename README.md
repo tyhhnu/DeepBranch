@@ -33,6 +33,7 @@ We release the training code and testing code at the directory of python\.
 |for_denselabe0.py/ |generate labels for model1|
 |for_denselabel.py/ |generate labels for model1|
 |for_denselabe2.py/ |generate labels for model1 |
+|new_patch_tip.py/ |generate labels for model2 |
 |io1.py/ |some functions for inputing and outputing |
 |test_dense.py/ |testinbg code of model1|
 |test_full_d.py/ |testinbg code of model2 |
