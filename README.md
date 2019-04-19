@@ -18,18 +18,26 @@ models
 ---
 Tne models implemented with Tensorflow was realeased at the directory of models\.
 
-|文件夹|说明|
+|Files|Introduction|
 |--|--|
-|ZBConfigCommon/ |主要基础代码工程。|
-|ZbConfigMain/ |主APP工程|
-|ZbConfigSetup/ |安装向导，已不再提供 |
-|DB/ |用于测试数据库文件夹，默认密码为admin/admin|
-|res/ |零碎的参考资源|
+|model1.py/ |improved 3D U-net|
+|model2.py/ |MSMVNET|
 
 
 Training code and testing code
 ---
 We release the training code and testing code at the directory of python\.
+
+|Files|Introduction|
+|--|--|
+|for_denselabe0.py/ |generate labels for model1|
+|for_denselabel.py/ |generate labels for model1|
+|for_denselabe2.py/ |generate labels for model1 |
+|io1.py/ |some functions for inputing and outputing |
+|test_dense.py/ |testinbg code of model1|
+|test_full_d.py/ |testinbg code of model2 |
+|train_dense4.py/ |training code of model2|
+|trainmv_1.py/ |training code of model1|
 
 Weights files
 ---
